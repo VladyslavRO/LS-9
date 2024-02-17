@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+         <label  class="field">
+            <div class="field__title">Name</div>
+                <input class="field__input" type="text" placeholder="Enter your name">
+            </label>
+
+            <label  class="field">
+                <div class="field__title">Sex</div>
+                    <select class="field__input">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+
+                    </select>
+                </label>
+
+
+                <label  class="field">
+                    <div class="field__title">Message</div>
+                        <textarea class="field__input field__textarea">
+                        </textarea>
+                    </label>
+
+                        <label class="radio">
+                               <input name="name" type="radio" class="radio__input">
+                               <div class="radio__box">
+                                 <div class="radio__circle"></div>
+                               </div>
+                               <div class="radio__text">I agree to process my personal data </div>
+
+
+
+                        </label>
+                        <label class="radio">
+                            <input name="name" type="radio" class="radio__input">
+                            <div class="radio__box">
+                              <div class="radio__circle"></div>
+                            </div>
+                            <div class="radio__text">I do not agree to the processing of my personal data</div>
+
+
+
+                     </label>
+            <button type="submit">Send</button>
+    </form>
+</body>
+</html>
